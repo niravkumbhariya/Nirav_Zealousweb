@@ -30,3 +30,9 @@ body{
 	@include btn;
 	background: $secondary-color;
 }
+
+input,
+select,
+textarea{
+	@include input-style;
+}

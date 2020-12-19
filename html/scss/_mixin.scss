@@ -14,3 +14,17 @@
 	line-height: 50px;
 	color: $primary-color;
 }
+
+@mixin input-style{
+	width: 100%;
+	background: $bg-color-light;
+	border: 2px solid $secondary-color;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: $font-sm;
+	line-height: 26px;
+	color: #74938A;
+	font-weight: 400;
+	padding: 8px 12px;
+	box-sizing: border-box;
+}
